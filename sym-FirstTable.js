@@ -1,4 +1,12 @@
 
+//This is a prototype for a symbol to show event in a table like format
+//This was done for the training program on custom symbol
+//This was done also for a specific set of data 
+//The next version will loop through the data and create the column dynamically
+//Creation : Christian Gagnon 
+//Company : Symasol.com
+//Date : 2/16/2018
+
 
 (function (PV) {
 	"use strict";
@@ -29,14 +37,6 @@
 	
 		function dataUpdate(data) {
        if(!data) return;
-
-       console.log(data);
-        var i = 0;
-        var len = data.Rows.length;
-
-       for (;i<len;i++){
-        console.log(i);
-       }
 
         //need to validate the number of item in the list for initial creation
         //need to validate on update if the column already exist (Event start time)
@@ -83,11 +83,6 @@
         }
 
 			} 
-		//scope.Values = dataItems;
-		//var x = 5;
-		//console.log(x);
-
-
 
 	 };
 
