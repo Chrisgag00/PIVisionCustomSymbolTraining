@@ -1,0 +1,16 @@
+FTable symbol control.
+
+Definition :
+1- This symbol will be used to see events attributes in a column. 
+2- Each event will show on a different column
+3- An event can or can not have a specific value for an attribute (it will show nothing in that position)
+4- The event need to have : %STARTTIME:yyyy-MM-dd HH:mm:ss.fff% as naming pattern
+
+
+This is what will be added later:
+1- Line in the grid
+2- Possibility of moving up and down the attribute
+3- The ability of moving an event and not the attribute (if possible) . 
+a. Add a table to define which attribute will show when you drag the event
+4- Create our own pan
+
